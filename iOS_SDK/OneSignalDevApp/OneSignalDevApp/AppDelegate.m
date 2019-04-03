@@ -68,7 +68,6 @@
                             settings:@{kOSSettingsKeyAutoPrompt: @false,
                                        kOSSettingsKeyInAppLaunchURL: @true}];
     
-    [OneSignal promptLocation];
     [OneSignal sendTag:@"someKey1122" value:@"03222017"];
     
     OneSignal.inFocusDisplayType = OSNotificationDisplayTypeNotification;
